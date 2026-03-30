@@ -1,0 +1,4 @@
+
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="fac4f2d0-d0e7-5cd7-a588-45d007bd1e86")}catch(e){}}();
+(function(){try{var e=typeof window<`u`?window:typeof global<`u`?global:typeof globalThis<`u`?globalThis:typeof self<`u`?self:{};e.SENTRY_RELEASE={id:`77fbca36`}}catch{}})();import{o as e}from"./chunk-CLHnkPwZ.js";import{t}from"./react-BNW_8c6p.js";import{t as n}from"./jsx-runtime-hVLyBpah.js";var r=e(t(),1),i=e(n(),1),a=r.createContext(void 0),o=e=>{let t=r.useContext(a);if(e)return e;if(!t)throw Error(`No QueryClient set, use QueryClientProvider to set one`);return t},s=({client:e,children:t})=>(r.useEffect(()=>(e.mount(),()=>{e.unmount()}),[e]),(0,i.jsx)(a.Provider,{value:e,children:t}));export{o as n,s as t};
+//# debugId=fac4f2d0-d0e7-5cd7-a588-45d007bd1e86

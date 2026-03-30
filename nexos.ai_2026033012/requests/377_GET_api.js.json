@@ -1,0 +1,35 @@
+{
+  "url": "https://challenges.cloudflare.com/turnstile/v0/g/ea2d291c0fdc/api.js",
+  "method": "GET",
+  "type": "Script",
+  "timestamp": "2026-03-30T04:33:28.714Z",
+  "requestHeaders": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "Referer": "https://workspace.nexos.ai/"
+  },
+  "postData": null,
+  "response": {
+    "status": 200,
+    "statusText": "",
+    "headers": {
+      "cache-control": "max-age=31536000, stale-if-error=10800, stale-while-revalidate=31536000, public",
+      "content-encoding": "br",
+      "cross-origin-resource-policy": "cross-origin",
+      "cf-ray": "9e4463d96d425941-SIN",
+      "access-control-allow-origin": "*",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "date": "Mon, 30 Mar 2026 04:32:21 GMT",
+      "content-type": "application/javascript; charset=UTF-8",
+      "last-modified": "Thu, 26 Feb 2026 16:26:08 GMT",
+      "server": "cloudflare"
+    },
+    "mimeType": "application/javascript"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "parser",
+    "url": "https://workspace.nexos.ai/authorization/verification?flow=b4b7e199-9f61-4076-a344-cc8e3ed1cd45"
+  }
+}

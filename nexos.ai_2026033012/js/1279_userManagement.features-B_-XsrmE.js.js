@@ -1,0 +1,4 @@
+
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="01d125f2-de36-5693-8ba1-333c4cc8d37c")}catch(e){}}();
+(function(){try{var e=typeof window<`u`?window:typeof global<`u`?global:typeof globalThis<`u`?globalThis:typeof self<`u`?self:{};e.SENTRY_RELEASE={id:`77fbca36`}}catch{}})();import{n as e}from"./useFeatureFlag-V-EwuREs.js";import{r as t}from"./UserContext-ulV3gBLg.js";import{l as n}from"./NexosImage-Cnd-vdWp.js";function r(){let{company:r}=t();return n(e.USER_PERSONALIZATION_COMPANIES_LIST,r.id)}function i(){let{company:r}=t();return n(e.USER_PERSONALIZATION_V2_COMPANIES_LIST,r.id)}export{i as n,r as t};
+//# debugId=01d125f2-de36-5693-8ba1-333c4cc8d37c

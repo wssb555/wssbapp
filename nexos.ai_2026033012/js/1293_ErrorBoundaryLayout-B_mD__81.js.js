@@ -1,0 +1,4 @@
+
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="b3d92467-a13a-59e8-9497-7cf04e1392a6")}catch(e){}}();
+(function(){try{var e=typeof window<`u`?window:typeof global<`u`?global:typeof globalThis<`u`?globalThis:typeof self<`u`?self:{};e.SENTRY_RELEASE={id:`77fbca36`}}catch{}})();import"./react-BNW_8c6p.js";import{Q as e}from"./chunk-LFPYN7LY-DvFZTgRa.js";import"./jsx-runtime-hVLyBpah.js";import"./injectIntl-C1xce-tb.js";import"./button-ChaV-wp4.js";import"./dist-CXMScWbG.js";import{t}from"./ErrorBoundaryHandler-Cdk8N6dB.js";var n=e(t);export{n as ErrorBoundary};
+//# debugId=b3d92467-a13a-59e8-9497-7cf04e1392a6

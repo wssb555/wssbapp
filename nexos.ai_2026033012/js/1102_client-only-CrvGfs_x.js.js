@@ -1,0 +1,4 @@
+
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="707db3a2-bbef-5ab6-b8bb-66f5853c6355")}catch(e){}}();
+(function(){try{var e=typeof window<`u`?window:typeof global<`u`?global:typeof globalThis<`u`?globalThis:typeof self<`u`?self:{};e.SENTRY_RELEASE={id:`77fbca36`}}catch{}})();import{o as e}from"./chunk-CLHnkPwZ.js";import{t}from"./react-BNW_8c6p.js";import{t as n}from"./jsx-runtime-hVLyBpah.js";var r=e(t(),1);function i(){return()=>{}}function a(){return(0,r.useSyncExternalStore)(i,()=>!0,()=>!1)}var o=e(n(),1);function s({children:e,fallback:t=null}){return a()?(0,o.jsx)(o.Fragment,{children:e()}):(0,o.jsx)(o.Fragment,{children:t})}export{s as t};
+//# debugId=707db3a2-bbef-5ab6-b8bb-66f5853c6355

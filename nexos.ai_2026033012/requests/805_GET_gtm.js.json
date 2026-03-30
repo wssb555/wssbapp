@@ -1,0 +1,42 @@
+{
+  "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5Z2SH4NT",
+  "method": "GET",
+  "type": "Script",
+  "timestamp": "2026-03-30T04:34:08.875Z",
+  "requestHeaders": {
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://workspace.nexos.ai/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0"
+  },
+  "postData": null,
+  "response": {
+    "status": 200,
+    "statusText": "",
+    "headers": {
+      "cache-control": "private, max-age=900",
+      "content-encoding": "zstd",
+      "cross-origin-resource-policy": "cross-origin",
+      "access-control-allow-credentials": "true",
+      "expires": "Mon, 30 Mar 2026 04:32:00 GMT",
+      "access-control-allow-origin": "*",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "content-length": "151179",
+      "date": "Mon, 30 Mar 2026 04:32:00 GMT",
+      "x-xss-protection": "0",
+      "content-type": "application/javascript; charset=UTF-8",
+      "vary": "Accept-Encoding",
+      "server": "Google Tag Manager",
+      "last-modified": "Mon, 30 Mar 2026 03:00:00 GMT",
+      "access-control-allow-headers": "Cache-Control"
+    },
+    "mimeType": "application/javascript"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "script"
+  }
+}

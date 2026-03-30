@@ -1,0 +1,4 @@
+
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="75a91ea9-6604-5d22-a0ee-be235e6211ce")}catch(e){}}();
+(function(){try{var e=typeof window<`u`?window:typeof global<`u`?global:typeof globalThis<`u`?globalThis:typeof self<`u`?self:{};e.SENTRY_RELEASE={id:`77fbca36`}}catch{}})();import{o as e}from"./chunk-CLHnkPwZ.js";import{t}from"./react-BNW_8c6p.js";import{n,r}from"./signals-core.module-CPyMEXzE.js";var i=e(t(),1),a=(e,t=[])=>(0,i.useMemo)(()=>n(typeof e==`function`?e():e),t),o=e=>{let[t,n]=(0,i.useState)(()=>e.peek());return(0,i.useEffect)(()=>e.subscribe(n),[e]),t},s=e=>{let[t,n]=(0,i.useState)(e);return c(()=>{n(e())}),t};function c(e){(0,i.useEffect)(()=>r(e),[])}export{a as n,o as r,s as t};
+//# debugId=75a91ea9-6604-5d22-a0ee-be235e6211ce

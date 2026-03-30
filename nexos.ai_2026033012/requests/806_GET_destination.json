@@ -1,0 +1,45 @@
+{
+  "url": "https://www.googletagmanager.com/gtag/destination?id=AW-11552519149&cx=c&gtm=4e63p1",
+  "method": "GET",
+  "type": "Script",
+  "timestamp": "2026-03-30T04:34:08.909Z",
+  "requestHeaders": {
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://workspace.nexos.ai/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0"
+  },
+  "postData": null,
+  "response": {
+    "status": 200,
+    "statusText": "",
+    "headers": {
+      "content-encoding": "zstd",
+      "report-to": "{\"group\":\"ascgsrsghrgc:72:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascgsrsghrgc:72:0\"}],}",
+      "expires": "Mon, 30 Mar 2026 04:32:24 GMT",
+      "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "date": "Mon, 30 Mar 2026 04:32:24 GMT",
+      "content-type": "application/javascript; charset=UTF-8",
+      "vary": "Accept-Encoding",
+      "last-modified": "Mon, 30 Mar 2026 03:00:00 GMT",
+      "access-control-allow-headers": "Cache-Control",
+      "cache-control": "private, max-age=900",
+      "cross-origin-resource-policy": "cross-origin",
+      "access-control-allow-credentials": "true",
+      "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascgsrsghrgc:72:0",
+      "access-control-allow-origin": "*",
+      "cross-origin-opener-policy-report-only": "same-origin; report-to=ascgsrsghrgc:72:0",
+      "content-length": "146611",
+      "x-xss-protection": "0",
+      "server": "Google Tag Manager"
+    },
+    "mimeType": "application/javascript"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "script"
+  }
+}

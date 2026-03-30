@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 360px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+      background: #f0f2f5;
+      color: #333;
+    }
+    .header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 18px 20px 14px;
+    }
+    .header h1 { font-size: 16px; font-weight: 600; margin-bottom: 4px; }
+    .header p { font-size: 11px; opacity: 0.8; }
+    .action-area { padding: 16px 20px; text-align: center; }
+    .btn-start {
+      width: 100%; padding: 14px; border: none; border-radius: 10px;
+      font-size: 16px; font-weight: 600; cursor: pointer; transition: all 0.3s;
+      color: white; background: linear-gradient(135deg, #43e97b, #38f9d7);
+      box-shadow: 0 4px 15px rgba(67, 233, 123, 0.4);
+    }
+    .btn-start:hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(67,233,123,0.5); }
+    .btn-start:active { transform: translateY(0); }
+    .btn-start.running {
+      background: linear-gradient(135deg, #f5576c, #ff6b6b);
+      box-shadow: 0 4px 15px rgba(245, 87, 108, 0.4);
+    }
+    .btn-start:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+    .status-panel {
+      margin: 0 20px 12px; padding: 12px 16px; border-radius: 10px;
+      background: white; box-shadow: 0 1px 4px rgba(0,0,0,0.06); display: none;
+    }
+    .status-panel.visible { display: block; }
+    .status-row {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 5px 0; font-size: 12px; gap: 8px;
+    }
+    .status-label { color: #888; flex-shrink: 0; }
+    .status-value { font-weight: 500; color: #333; text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .status-value.highlight { color: #667eea; }
+    .progress-bar {
+      width: 100%; height: 6px; background: #e9ecef; border-radius: 3px;
+      margin-top: 8px; overflow: hidden;
+    }
+    .progress-bar-inner {
+      height: 100%; background: linear-gradient(90deg, #667eea, #764ba2);
+      border-radius: 3px; transition: width 0.5s;
+    }
+    .status-badge {
+      display: inline-block; padding: 2px 8px; border-radius: 4px;
+      font-size: 11px; font-weight: 500;
+    }
+    .status-badge.learning { background: #d4edda; color: #155724; }
+    .status-badge.scraping { background: #fff3cd; color: #856404; }
+    .status-badge.switching { background: #cce5ff; color: #004085; }
+    .status-badge.error { background: #f8d7da; color: #721c24; }
+    .status-badge.completed { background: #d4edda; color: #155724; }
+    .status-badge.idle { background: #e2e3e5; color: #383d41; }
+    .settings { padding: 0 20px 16px; }
+    .settings-title {
+      font-size: 12px; color: #888; margin-bottom: 8px; font-weight: 500;
+      display: flex; align-items: center; gap: 4px; cursor: pointer; user-select: none;
+    }
+    .settings-title .arrow { font-size: 10px; transition: transform 0.2s; }
+    .settings-title .arrow.open { transform: rotate(90deg); }
+    .settings-body { display: none; }
+    .settings-body.open { display: block; }
+    .setting-row {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 8px 12px; margin-bottom: 6px; border-radius: 8px; background: white; gap: 12px;
+    }
+    .setting-label { font-size: 12px; font-weight: 500; }
+    .setting-desc { font-size: 10px; color: #aaa; margin-top: 1px; }
+    select, input[type="number"] {
+      padding: 4px 8px; border: 1px solid #ddd; border-radius: 6px;
+      font-size: 12px; background: white; outline: none;
+    }
+    input[type="number"] { width: 58px; text-align: center; }
+    .toast {
+      position: fixed; bottom: 16px; left: 50%; transform: translateX(-50%);
+      background: #333; color: #fff; padding: 10px 16px; border-radius: 8px;
+      font-size: 12px; line-height: 1.5; max-width: 320px; text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3); opacity: 0;
+      transition: opacity 0.3s; pointer-events: none; z-index: 999;
+    }
+    .toast.show { opacity: 1; pointer-events: auto; }
+    .toggle { position: relative; width: 38px; height: 20px; flex-shrink: 0; }
+    .toggle input { opacity: 0; width: 0; height: 0; }
+    .toggle .slider {
+      position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0;
+      background: #ccc; border-radius: 20px; transition: 0.3s;
+    }
+    .toggle .slider:before {
+      content: ""; position: absolute; height: 16px; width: 16px; left: 2px; bottom: 2px;
+      background: white; border-radius: 50%; transition: 0.3s;
+    }
+    .toggle input:checked + .slider { background: #667eea; }
+    .toggle input:checked + .slider:before { transform: translateX(18px); }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>自动学习助手</h1>
+  </div>
+
+  <div class="action-area">
+    <button class="btn-start" id="btnStart">开始学习</button>
+  </div>
+
+  <div class="status-panel" id="statusPanel">
+    <div class="status-row">
+      <span class="status-label">状态</span>
+      <span class="status-badge idle" id="statusBadge">待机</span>
+    </div>
+    <div class="status-row">
+      <span class="status-label">当前课程</span>
+      <span class="status-value" id="currentCourse">-</span>
+    </div>
+    <div class="status-row">
+      <span class="status-label">课程进度</span>
+      <span class="status-value highlight" id="courseProgress">-</span>
+    </div>
+    <div class="status-row">
+      <span class="status-label">已获学时</span>
+      <span class="status-value highlight" id="earnedHours">-</span>
+    </div>
+    <div class="status-row">
+      <span class="status-label">播放时长</span>
+      <span class="status-value highlight" id="playbackTime">-</span>
+    </div>
+    <div class="status-row">
+      <span class="status-label">视频进度</span>
+      <span class="status-value highlight" id="videoProgress">-</span>
+    </div>
+    <div class="status-row">
+      <span class="status-label">观看进度</span>
+      <span class="status-value highlight" id="watchProgress">-</span>
+    </div>
+    <div class="status-row">
+      <span class="status-label">当前章节</span>
+      <span class="status-value" id="currentSection">-</span>
+    </div>
+    <div class="status-row">
+      <span class="status-label">章节进度</span>
+      <span class="status-value highlight" id="sectionProgress">-</span>
+    </div>
+    <div class="progress-bar"><div class="progress-bar-inner" id="progressBar" style="width:0%"></div></div>
+  </div>
+
+  <div class="settings">
+    <div class="settings-title" id="settingsToggle">
+      <span class="arrow" id="settingsArrow">▶</span> 设置
+    </div>
+    <div class="settings-body" id="settingsBody">
+      <div class="setting-row">
+        <div>          <div class="setting-label">播放倍速（安全上限 1.5x）</div></div>
+        <select id="speedRate">
+          <option value="1.0">1.0x</option>
+          <option value="1.25">1.25x</option>
+          <option value="1.5" selected>1.5x</option>
+        </select>
+      </div>
+      <div class="setting-row">
+        <div>
+          <div class="setting-label">课程间隔(分钟)</div>
+          <div class="setting-desc">每门课程结束后等待时长</div>
+        </div>
+        <input type="number" id="courseInterval" value="2" min="0" max="30" step="0.5">
+      </div>
+      <div class="setting-row">
+        <div>
+          <div class="setting-label">目标学时</div>
+          <div class="setting-desc">达到此学时后自动停止</div>
+        </div>
+        <input type="number" id="targetHours" value="50" min="1" max="200">
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+{
+  "url": "https://workspace.nexos.ai/api/version",
+  "method": "GET",
+  "type": "Fetch",
+  "timestamp": "2026-03-30T04:33:39.114Z",
+  "requestHeaders": {
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Cache-Control": "no-cache",
+    "Referer": "https://workspace.nexos.ai/authorization/verification?flow=b4b7e199-9f61-4076-a344-cc8e3ed1cd45",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "baggage": "sentry-environment=production,sentry-release=77fbca36,sentry-public_key=d4d9aeb54c2a68b5f0aba58c12d318c6,sentry-trace_id=1f8ea37f37e645119611c670b51a5f37,sentry-sampled=true,sentry-sample_rand=0.5576148006073902,sentry-sample_rate=1",
+    "sentry-trace": "1f8ea37f37e645119611c670b51a5f37-8b7ab3801bdb032b-1",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37"
+  },
+  "postData": null,
+  "response": {
+    "status": 200,
+    "statusText": "",
+    "headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "cache-control": "no-cache, no-store, must-revalidate",
+      "content-encoding": "gzip",
+      "cf-cache-status": "DYNAMIC",
+      "pragma": "no-cache",
+      "cf-ray": "9e4465bdaf956032-SIN",
+      "expires": "0",
+      "date": "Mon, 30 Mar 2026 04:33:39 GMT",
+      "content-type": "application/json",
+      "server": "cloudflare"
+    },
+    "mimeType": "application/json"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "script"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "url": "blob:https://workspace.nexos.ai/c1d626ae-954f-4b0e-a7da-8e12f6fb3e9f",
+  "method": "GET",
+  "type": "Script",
+  "timestamp": "2026-03-30T04:33:43.471Z",
+  "requestHeaders": {
+    "Accept": "*/*"
+  },
+  "postData": null,
+  "response": null,
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "other",
+    "url": "https://workspace.nexos.ai/authorization/login?flow=6a254016-4a94-4126-80fa-a3ef8e566eb5"
+  }
+}

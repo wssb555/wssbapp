@@ -1,0 +1,35 @@
+{
+  "url": "https://k.clarity.ms/collect",
+  "method": "POST",
+  "type": "XHR",
+  "timestamp": "2026-03-30T04:32:16.106Z",
+  "requestHeaders": {
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://nexos.ai/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "Accept": "application/x-clarity-gzip",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0"
+  },
+  "postData": "\u001f\b\u0000\u0000\u0000\u0000\u0000\u0000\nTKÛ6\u0010þ+\u0002O\t0¢ùÔcsZì¡]¤éeSìA0\u0002¢dÆ2©èu6}üöbl9Ù\u0006-P\b\u0012æ=ß>òwâÈMC\u0018­¨.\tp`À\u00002\u001fõËiwmA´º\u000f\u0004H\u001a??¯0|È.¥i¹Ùlû\u0012\u0017jül\u0018rÓ4C\u0005¼f5Ô%c[h´\u0004ÎËBB­W¨£¤@À\u0000~ÑK\u00105\b\u0010µ\u0000]éó[2\t\\È\u0002x]VÀ¥dW\u0010\u0005\u0013\u0002\u0012Ì³\u001fLr\u0004ÈN\u0010Ðu])PUÉY¹\u0006\nÈ§£KÏ¾#ÐÂ¶¥s¶ç÷¼âª®ºÞÙ¾ì\ráKxëlÝ\u0016½É\u00166W²ksÓê.g0ealom»ú?aXyÁ¢w£}z¹\u000f\u001fvi¹áÙÍa¹tÇ\u0018©$¯uÁ\u0005î>Ý? \u000b\u0002øÙ®³á2\u001aò!~õãh6²ìÍ£\u000f]<-Ù¯\u001f3Î({=úP¨wÙB½Ín§it®}ïÓ¦Ô\u0005eöæýÏ\u001f?ü\u0002Ùè÷.ûÉÙ}|Ýíæxp\u001b®\u0018=?ÙéÍì×\u0014²\u0005\u000eÍ¿@BCnÇ1÷!Áe·÷Ù4ÔÇùý]\u0003É\u0016\u00144ä\ndá4Ä¹³] 6\u001eÐÐþhH&yKí\u0018]?Ùùuw«ÿt:Ñ!ÆatÉ\f\u0007\u0013ÌàæÕÕÑWº|\u0016ÿÐ]{\u001c^\u001bÌ4Ñ%Åù¥\u001dãþZÁ÷ýqqsxÌ4åÇ¯®Ö$Úú0¬ª!8ho¬kcÜÓà\u0012\u0016\rf|IÞ.Ôìf×_AOfp¦\u0013+ðå%tÞäãuèÃdE>Í±ËEûE?±â)?:jè|<cYgÿÖp­<ûåð\u0003Ô4\u001b»·iÅYöÂCzXpÅvö\u0013.ô»q\u000b54Äü·\u0007üé\u001a\u0019¨fá\u0013ªÅÙ\u0012F\\»øäÈ\u0016\u0004ûO\u0016 \u0017¹s»¤9fÏò\"Á¬ÌE\u0015ùq\fë}pÝ_B\u0011x¥rÅ0\u0006Ûs\u0014J<-\u0003J\u00154äì«WAªs3o6\u000f;\u0013Ý|\u0012çÈUu\u000e¸T\u0001òýLáåÂËRUJsY0ÆÎ§LBÉ@A­@C\u0001\u0005H\u0001%h¨@(^@9\f\u0004pu¹ë¸º\u0010¸#¡@h(\u0011/C¬\f$\u0007ù¸-© BTlEðêVÜþù7\u000fÔ¸e«\u0005\u0000\u0000",
+  "response": {
+    "status": 204,
+    "statusText": "No Content",
+    "headers": {
+      "Request-Context": "appId=cid-v1:a449a586-8786-487f-a449-dc1b282a2628",
+      "Access-Control-Allow-Origin": "https://nexos.ai",
+      "Date": "Mon, 30 Mar 2026 04:32:17 GMT",
+      "Vary": "Origin",
+      "Server": "nginx",
+      "Connection": "keep-alive",
+      "Access-Control-Allow-Credentials": "true"
+    },
+    "mimeType": "text/plain"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "script"
+  }
+}

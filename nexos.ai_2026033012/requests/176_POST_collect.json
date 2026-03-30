@@ -1,0 +1,26 @@
+{
+  "url": "https://pagead2.googlesyndication.com/ccm/collect?frm=0&ae=g&dr=nexos.ai&dl=https%3A%2F%2Fworkspace.nexos.ai%2Fauthorization%2Flogin&scrsrc=www.googletagmanager.com&rnd=720304789.1774845145&navt=n&npa=1&_tu=CA&gtm=45be63p1v9205092943z89201517703za20gzb9201517703zd9201517703xea&gcs=G100&gcd=13p3p3V3p5l1&dma_cps=-&dma=0&tag_exp=0~115616985~115938466~115938469~116133312~117384405~117484252&apve=1&apvf=f&apvc=0&tids=AW-11552519149&tid=AW-11552519149&tft=1774845144834&tfd=14212",
+  "method": "POST",
+  "type": "Fetch",
+  "timestamp": "2026-03-30T04:32:24.835Z",
+  "requestHeaders": {
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://workspace.nexos.ai/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0"
+  },
+  "postData": null,
+  "response": {
+    "status": 200,
+    "statusText": "",
+    "headers": {},
+    "mimeType": "text/plain"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "script"
+  }
+}

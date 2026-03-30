@@ -1,0 +1,45 @@
+{
+  "url": "https://clientstream.launchdarkly.com/eval/695f54a54855b409df5aa4fb/eyJraW5kIjoidXNlciIsImtleSI6ImFub255bW91cyIsImFub255bW91cyI6dHJ1ZX0",
+  "method": "GET",
+  "type": "EventSource",
+  "timestamp": "2026-03-30T04:33:43.701Z",
+  "requestHeaders": {
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Cache-Control": "no-cache",
+    "Referer": "https://workspace.nexos.ai/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "Accept": "text/event-stream",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0"
+  },
+  "postData": null,
+  "response": {
+    "status": 200,
+    "statusText": "",
+    "headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "access-control-max-age": "300",
+      "cache-control": "no-cache, no-store, must-revalidate",
+      "x-ld-envid": "695f54a54855b409df5aa4fb",
+      "ld-region": "ap-southeast-1",
+      "access-control-allow-methods": "GET,OPTIONS",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "x-content-type-options": "nosniff",
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "date": "Mon, 30 Mar 2026 04:33:44 GMT",
+      "x-xss-protection": "1",
+      "content-type": "text/event-stream; charset=utf-8",
+      "x-ld-accountid": "695e5bdcc6f1c80ad843e573",
+      "access-control-allow-headers": "Accept,Content-Type,Content-Length,Accept-Encoding,Cache-Control,X-Requested-With,X-LaunchDarkly-User-Agent,X-LaunchDarkly-Wrapper"
+    },
+    "mimeType": "text/event-stream"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": "net::ERR_ABORTED",
+  "initiator": {
+    "type": "parser",
+    "url": "https://workspace.nexos.ai/authorization/login?flow=6a254016-4a94-4126-80fa-a3ef8e566eb5"
+  }
+}

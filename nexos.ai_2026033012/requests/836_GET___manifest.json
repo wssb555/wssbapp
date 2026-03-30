@@ -1,0 +1,38 @@
+{
+  "url": "https://workspace.nexos.ai/__manifest?paths=%2Fuser%2Fpersonalization&version=fb2652cc",
+  "method": "GET",
+  "type": "Fetch",
+  "timestamp": "2026-03-30T04:34:28.663Z",
+  "requestHeaders": {
+    "sentry-trace": "ae1c57cef2c1105ea54c6df364afba66-af2e67011852f2c8-1",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://workspace.nexos.ai/chat",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "baggage": "sentry-environment=production,sentry-release=77fbca36,sentry-public_key=d4d9aeb54c2a68b5f0aba58c12d318c6,sentry-trace_id=ae1c57cef2c1105ea54c6df364afba66,sentry-transaction=GET%20%2Fchat%2F%3AchatId%3F,sentry-sampled=true,sentry-sample_rand=0.38038583123716474,sentry-sample_rate=1"
+  },
+  "postData": null,
+  "response": {
+    "status": 200,
+    "statusText": "",
+    "headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "cache-control": "public, max-age=31536000, immutable",
+      "content-encoding": "br",
+      "cf-cache-status": "DYNAMIC",
+      "cf-ray": "9e4466f2da426032-SIN",
+      "date": "Mon, 30 Mar 2026 04:34:29 GMT",
+      "content-type": "application/json",
+      "vary": "Accept-Encoding",
+      "server": "cloudflare"
+    },
+    "mimeType": "application/json"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "script"
+  }
+}

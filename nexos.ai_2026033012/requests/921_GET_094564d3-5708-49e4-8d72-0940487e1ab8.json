@@ -1,0 +1,18 @@
+{
+  "url": "blob:https://workspace.nexos.ai/094564d3-5708-49e4-8d72-0940487e1ab8",
+  "method": "GET",
+  "type": "Script",
+  "timestamp": "2026-03-30T04:34:08.774Z",
+  "requestHeaders": {
+    "Accept": "*/*"
+  },
+  "postData": null,
+  "response": null,
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "other",
+    "url": "https://workspace.nexos.ai/chat"
+  }
+}

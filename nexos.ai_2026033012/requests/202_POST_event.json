@@ -1,0 +1,39 @@
+{
+  "url": "https://analytics.ahrefs.com/api/event",
+  "method": "POST",
+  "type": "XHR",
+  "timestamp": "2026-03-30T04:32:37.382Z",
+  "requestHeaders": {
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://workspace.nexos.ai/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "Content-Type": "text/plain",
+    "sec-ch-ua-mobile": "?0"
+  },
+  "postData": "{\"n\":\"pageview\",\"u\":\"https://workspace.nexos.ai/authorization/registration?login_flow=b06e7782-469e-4a19-99b3-3bd86c3f6f42\",\"l\":[\"en-US\",\"en\"],\"k\":\"E1B8lJS9I2oBULN5aEEFCQ\",\"r\":\"https://nexos.ai/\",\"sw\":1363,\"sh\":962,\"sr\":1,\"t\":\"nexos.ai\"}",
+  "response": {
+    "status": 200,
+    "statusText": "",
+    "headers": {
+      "x-request-id": "4e5a783c-6471-4136-a022-99aec6db0eaa",
+      "content-encoding": "gzip",
+      "cf-cache-status": "DYNAMIC",
+      "cf-ray": "9e44643bfee6f90e-SIN",
+      "traceparent": "00-524c52f22383498590fe3d8ce053c18b-a482b5a39f9641b8-03",
+      "access-control-allow-origin": "*",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "date": "Mon, 30 Mar 2026 04:32:37 GMT",
+      "content-type": "application/json",
+      "vary": "Accept-Encoding",
+      "server": "cloudflare"
+    },
+    "mimeType": "application/json"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "script"
+  }
+}

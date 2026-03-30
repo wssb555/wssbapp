@@ -1,0 +1,4 @@
+
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="08bde218-1bc5-544f-b90d-f2e7ec64c2f5")}catch(e){}}();
+(function(){try{var e=typeof window<`u`?window:typeof global<`u`?global:typeof globalThis<`u`?globalThis:typeof self<`u`?self:{};e.SENTRY_RELEASE={id:`77fbca36`}}catch{}})();import{t as e}from"./lib-B6swq1_X.js";var t=e();function n(){if(!t.osName||t.isIOS)return!1;let e=window.navigator.userAgent.toLowerCase();if(/tablet/.test(e))return!0;let n=window.innerWidth>=520,r=navigator.maxTouchPoints>2;return n&&r}function r(){return t.isMobileOnly&&(t.isAndroid||t.isIOS)}export{r as n,n as t};
+//# debugId=08bde218-1bc5-544f-b90d-f2e7ec64c2f5

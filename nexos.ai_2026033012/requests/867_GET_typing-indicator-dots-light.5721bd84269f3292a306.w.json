@@ -1,0 +1,47 @@
+{
+  "url": "https://js.intercomcdn.com/images/typing-indicator-dots-light.5721bd84269f3292a306.webp",
+  "method": "GET",
+  "type": "Image",
+  "timestamp": "2026-03-30T04:34:39.460Z",
+  "requestHeaders": {
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0"
+  },
+  "postData": null,
+  "response": {
+    "status": 200,
+    "statusText": "",
+    "headers": {
+      "x-amz-version-id": "4kMKRJXWH7hRwCpMfFLWCweGuTolg.BY",
+      "etag": "\"b700720d35e89d819d57de437af03efd\"",
+      "age": "2826",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-cache": "Hit from cloudfront",
+      "x-amz-cf-id": "gKUpjpU_MwmVBBip5aVTZwnIx-2m2UaMjmkFpK05kut3OAO8P60tzQ==",
+      "date": "Mon, 30 Mar 2026 03:47:36 GMT",
+      "content-type": "image/webp",
+      "vary": "Accept-Encoding, Origin",
+      "last-modified": "Wed, 25 Mar 2026 18:06:08 GMT",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "cache-control": "max-age=31536000, s-maxage=7200, public",
+      "cross-origin-resource-policy": "cross-origin",
+      "via": "1.1 30232b3b4c54be95e66982a7e3ae91ae.cloudfront.net (CloudFront)",
+      "accept-ranges": "bytes",
+      "content-length": "13034",
+      "x-amz-cf-pop": "SIN2-P10",
+      "server": "AmazonS3",
+      "x-amz-server-side-encryption": "AES256"
+    },
+    "mimeType": "image/webp"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "other"
+  }
+}

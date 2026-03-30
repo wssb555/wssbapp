@@ -1,0 +1,44 @@
+{
+  "url": "https://analytics.ahrefs.com/analytics.js",
+  "method": "GET",
+  "type": "Script",
+  "timestamp": "2026-03-30T04:33:43.580Z",
+  "requestHeaders": {
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://workspace.nexos.ai/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0"
+  },
+  "postData": null,
+  "response": {
+    "status": 200,
+    "statusText": "",
+    "headers": {
+      "x-request-id": "8b23d218-a488-4ed1-965c-e824f2d1352f",
+      "content-encoding": "gzip",
+      "cf-cache-status": "HIT",
+      "age": "4740",
+      "traceparent": "00-6ab4b6c4a09440a69df3f29fd6efc07d-57ad6d62a02648da-03",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "date": "Mon, 30 Mar 2026 04:32:02 GMT",
+      "content-type": "text/javascript",
+      "last-modified": "Mon, 30 Mar 2026 03:13:01 GMT",
+      "vary": "accept-encoding",
+      "cdn-cache-control": "max-age=18000",
+      "cache-control": "max-age=14400",
+      "cf-ray": "9e44635c9a020b95-SIN",
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "content-length": "2692",
+      "server": "cloudflare"
+    },
+    "mimeType": "text/javascript"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "script"
+  }
+}

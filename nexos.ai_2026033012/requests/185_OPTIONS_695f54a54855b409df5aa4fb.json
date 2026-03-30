@@ -1,0 +1,36 @@
+{
+  "url": "https://events.launchdarkly.com/events/bulk/695f54a54855b409df5aa4fb",
+  "method": "OPTIONS",
+  "type": "Other",
+  "timestamp": "2026-03-30T04:32:28.934Z",
+  "requestHeaders": {
+    "Accept": "*/*",
+    "Access-Control-Request-Headers": "content-type,x-launchdarkly-event-schema,x-launchdarkly-payload-id,x-launchdarkly-user-agent,x-launchdarkly-wrapper",
+    "Access-Control-Request-Method": "POST",
+    "Origin": "https://workspace.nexos.ai",
+    "Sec-Fetch-Mode": "cors",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37"
+  },
+  "postData": null,
+  "response": {
+    "status": 204,
+    "statusText": "",
+    "headers": {
+      "access-control-allow-headers": "Accept,Content-Type,Content-Length,Accept-Encoding,X-LaunchDarkly-Event-Schema,X-LaunchDarkly-User-Agent,X-LaunchDarkly-Payload-ID,X-LaunchDarkly-Wrapper,X-LaunchDarkly-Tags",
+      "access-control-allow-methods": "POST,OPTIONS",
+      "access-control-allow-origin": "*",
+      "access-control-expose-headers": "Date",
+      "access-control-max-age": "300",
+      "date": "Mon, 30 Mar 2026 04:32:29 GMT",
+      "strict-transport-security": "max-age=31536000; includeSubDomains"
+    },
+    "mimeType": ""
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "preflight",
+    "url": "https://events.launchdarkly.com/events/bulk/695f54a54855b409df5aa4fb"
+  }
+}

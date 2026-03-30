@@ -1,0 +1,39 @@
+{
+  "url": "https://scripts.clarity.ms/0.8.57/clarity.js",
+  "method": "GET",
+  "type": "Script",
+  "timestamp": "2026-03-30T04:32:14.132Z",
+  "requestHeaders": {
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://nexos.ai/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0"
+  },
+  "postData": null,
+  "response": {
+    "status": 200,
+    "statusText": "",
+    "headers": {
+      "x-azure-ref": "20260330T043214Z-1575b458d99k5c6dhC1KULfwvc00000017b0000000002enc",
+      "x-ms-version": "2018-03-28",
+      "content-encoding": "br",
+      "etag": "W/\"0x8DE8A8432EBCBA8\"",
+      "x-fd-int-roxy-purgeid": "1",
+      "x-ms-request-id": "ebb36ff5-801e-0067-5575-bc3e27000000",
+      "access-control-allow-origin": "*",
+      "x-cache": "TCP_HIT",
+      "date": "Mon, 30 Mar 2026 04:32:14 GMT",
+      "content-type": "application/javascript;charset=utf-8",
+      "vary": "Accept-Encoding",
+      "last-modified": "Wed, 25 Mar 2026 15:35:52 GMT"
+    },
+    "mimeType": "application/javascript"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "script"
+  }
+}

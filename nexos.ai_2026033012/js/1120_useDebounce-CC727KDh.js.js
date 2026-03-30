@@ -1,0 +1,4 @@
+
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="d5a7ac36-c23a-5265-8f9b-8554af31960b")}catch(e){}}();
+(function(){try{var e=typeof window<`u`?window:typeof global<`u`?global:typeof globalThis<`u`?globalThis:typeof self<`u`?self:{};e.SENTRY_RELEASE={id:`77fbca36`}}catch{}})();import{o as e}from"./chunk-CLHnkPwZ.js";import{t}from"./react-BNW_8c6p.js";var n=e(t(),1);function r(e,t){let r=(0,n.useRef)(void 0),i=(0,n.useRef)(e);i.current=e;let a=(0,n.useMemo)(()=>Object.assign((...e)=>{clearTimeout(r.current),r.current=setTimeout(()=>i.current(...e),t)},{cancel:()=>clearTimeout(r.current)}),[t]);return(0,n.useEffect)(()=>()=>a.cancel(),[a]),a}export{r as t};
+//# debugId=d5a7ac36-c23a-5265-8f9b-8554af31960b

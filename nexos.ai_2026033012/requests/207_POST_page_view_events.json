@@ -1,0 +1,50 @@
+{
+  "url": "https://api-iam.intercom.io/messenger/web/page_view_events",
+  "method": "POST",
+  "type": "XHR",
+  "timestamp": "2026-03-30T04:32:37.445Z",
+  "requestHeaders": {
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "Content-Type": "application/x-www-form-urlencoded",
+    "sec-ch-ua-mobile": "?0"
+  },
+  "postData": "app_id=rson5bzh&v=3&g=c665aaaf4becf823994567ed2991e60258faf9a5&s=e98df7e7-007f-45c2-919b-a7b99c374acb&r=https%3A%2F%2Fnexos.ai%2F&platform=web&installation_type=js-snippet&installation_version=undefined&Idempotency-Key=0ec1c81ba3c8d900&internal=&is_intersection_booted=false&page_title=nexos.ai&user_active_company_id=-1&user_data=%7B%22anonymous_id%22%3A%2213e7f7ab-c7a2-4f3b-a127-cafebc3c702c%22%7D&referer=https%3A%2F%2Fworkspace.nexos.ai%2Fauthorization%2Fregistration%3Flogin_flow%3Db06e7782-469e-4a19-99b3-3bd86c3f6f42&device_identifier=010a2c6e-8cf7-4cff-9100-52355d9f8c7b",
+  "response": {
+    "status": 204,
+    "statusText": "",
+    "headers": {
+      "x-request-id": "000thjl7br6dpfeoqo60",
+      "access-control-max-age": "86400",
+      "access-control-expose-headers": "x-request-id, x-runtime",
+      "access-control-allow-methods": "POST, GET, OPTIONS",
+      "x-content-type-options": "nosniff",
+      "status": "204 No Content",
+      "date": "Mon, 30 Mar 2026 04:32:38 GMT",
+      "vary": "Accept",
+      "x-runtime": "0.052144",
+      "access-control-allow-headers": "Content-Type, Idempotency-Key, X-INTERCOM-APP, X-INTERCOM-PAGE-TITLE, X-INTERCOM-USER-DATA, traceparent, X-Continue-Intercom-Trace",
+      "x-frame-options": "SAMEORIGIN",
+      "strict-transport-security": "max-age=31556952; includeSubDomains; preload",
+      "x-request-queueing": "0",
+      "cache-control": "no-cache",
+      "timing-allow-origin": "*",
+      "access-control-allow-credentials": "true",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "access-control-allow-origin": "https://workspace.nexos.ai",
+      "x-xss-protection": "1; mode=block",
+      "x-intercom-version": "4041b23970476c794a1838af3c755d74298c2e44",
+      "x-ami-version": "ami-09f4374b347f3426b",
+      "server": "nginx"
+    },
+    "mimeType": "text/plain"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "script"
+  }
+}

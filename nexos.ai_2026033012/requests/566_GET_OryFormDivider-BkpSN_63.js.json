@@ -1,0 +1,37 @@
+{
+  "url": "https://workspace.nexos.ai/assets/OryFormDivider-BkpSN_63.js",
+  "method": "GET",
+  "type": "Script",
+  "timestamp": "2026-03-30T04:33:42.860Z",
+  "requestHeaders": {
+    "Origin": "https://workspace.nexos.ai",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://workspace.nexos.ai/authorization/login?flow=6a254016-4a94-4126-80fa-a3ef8e566eb5",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0"
+  },
+  "postData": null,
+  "response": {
+    "status": 200,
+    "statusText": "",
+    "headers": {
+      "cache-control": "public, max-age=31536000",
+      "content-encoding": "br",
+      "cf-cache-status": "DYNAMIC",
+      "cf-ray": "9e4463ca4d0c6032-SIN",
+      "date": "Mon, 30 Mar 2026 04:32:19 GMT",
+      "content-type": "text/javascript; charset=utf-8",
+      "vary": "Accept-Encoding",
+      "server": "cloudflare"
+    },
+    "mimeType": "text/javascript"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "parser",
+    "url": "https://workspace.nexos.ai/authorization/login?flow=6a254016-4a94-4126-80fa-a3ef8e566eb5"
+  }
+}

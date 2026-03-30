@@ -1,0 +1,41 @@
+{
+  "url": "https://s1.nordcdn.com/d/consent/prod/main.css",
+  "method": "GET",
+  "type": "Stylesheet",
+  "timestamp": "2026-03-30T04:32:18.020Z",
+  "requestHeaders": {
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://workspace.nexos.ai/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0"
+  },
+  "postData": null,
+  "response": {
+    "status": 200,
+    "statusText": "",
+    "headers": {
+      "cache-control": "public, max-age=604800",
+      "content-encoding": "gzip",
+      "cf-cache-status": "HIT",
+      "age": "14892",
+      "cf-ray": "9e44635b0a89ce8b-SIN",
+      "access-control-allow-origin": "*",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "date": "Mon, 30 Mar 2026 04:32:01 GMT",
+      "content-type": "text/css",
+      "last-modified": "Mon, 29 Dec 2025 08:01:33 GMT",
+      "vary": "Accept-Encoding",
+      "server": "cloudflare",
+      "x-frame-options": "SAMEORIGIN"
+    },
+    "mimeType": "text/css"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "parser",
+    "url": "https://workspace.nexos.ai/authorization/login?flow=b06e7782-469e-4a19-99b3-3bd86c3f6f42"
+  }
+}

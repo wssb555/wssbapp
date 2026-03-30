@@ -1,0 +1,38 @@
+{
+  "url": "https://debug.nexos.ai/api/6/envelope/?sentry_version=7&sentry_key=d4d9aeb54c2a68b5f0aba58c12d318c6&sentry_client=sentry.javascript.react-router%2F10.42.0",
+  "method": "POST",
+  "type": "Fetch",
+  "timestamp": "2026-03-30T04:32:37.382Z",
+  "requestHeaders": {
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://workspace.nexos.ai/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "Content-Type": "text/plain;charset=UTF-8",
+    "sec-ch-ua-mobile": "?0"
+  },
+  "postData": "{\"sent_at\":\"2026-03-30T04:32:37.374Z\",\"sdk\":{\"name\":\"sentry.javascript.react-router\",\"version\":\"10.42.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"462f1ce0c1284110b537de70abffc56a\",\"init\":false,\"started\":\"2026-03-30T04:32:20.538Z\",\"timestamp\":\"2026-03-30T04:32:37.374Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"77fbca36\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37\"}}",
+  "response": {
+    "status": 200,
+    "statusText": "",
+    "headers": {
+      "access-control-expose-headers": "x-sentry-error,x-sentry-rate-limits,retry-after",
+      "cf-cache-status": "DYNAMIC",
+      "cross-origin-resource-policy": "cross-origin",
+      "cf-ray": "9e44643c49416198-SIN",
+      "access-control-allow-origin": "*",
+      "content-length": "2",
+      "date": "Mon, 30 Mar 2026 04:32:38 GMT",
+      "content-type": "application/json",
+      "vary": "origin, access-control-request-method, access-control-request-headers",
+      "server": "cloudflare"
+    },
+    "mimeType": "application/json"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "script"
+  }
+}

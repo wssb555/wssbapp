@@ -1,0 +1,37 @@
+{
+  "url": "https://prism.app-us1.com/?a=802362301&u=https%3A%2F%2Fnexos.ai%2F",
+  "method": "GET",
+  "type": "Script",
+  "timestamp": "2026-03-30T04:32:06.128Z",
+  "requestHeaders": {
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://nexos.ai/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0"
+  },
+  "postData": null,
+  "response": {
+    "status": 200,
+    "statusText": "",
+    "headers": {
+      "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+      "cache-control": "no-cache, private",
+      "content-encoding": "gzip",
+      "cf-cache-status": "DYNAMIC",
+      "x-envoy-upstream-service-time": "69",
+      "cf-ray": "9e44637a6c313e29-SIN",
+      "date": "Mon, 30 Mar 2026 04:32:07 GMT",
+      "content-type": "application/javascript",
+      "x-powered-by": "PHP/8.1.33",
+      "server": "cloudflare"
+    },
+    "mimeType": "application/javascript"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "script"
+  }
+}

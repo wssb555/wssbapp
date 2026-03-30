@@ -1,0 +1,52 @@
+{
+  "url": "https://sb.nordcdn.com/m/5f1231de44d63d55/original/anthropic.png",
+  "method": "GET",
+  "type": "Image",
+  "timestamp": "2026-03-30T04:34:41.981Z",
+  "requestHeaders": {
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://workspace.nexos.ai/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0"
+  },
+  "postData": null,
+  "response": {
+    "status": 200,
+    "statusText": "",
+    "headers": {
+      "cf-cache-status": "HIT",
+      "age": "2234376",
+      "x-content-type-options": "nosniff",
+      "expires": "Mon, 30 Mar 2026 08:34:42 GMT",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-cache": "Miss from cloudfront",
+      "x-amz-cf-id": "WNtI9F_VIzEcgPK0Jw5x3IHlW-3BRX4-Z3WTB6YAA3HmhTKQwAzW8A==",
+      "date": "Mon, 30 Mar 2026 04:34:42 GMT",
+      "content-type": "image/png",
+      "content-disposition": "inline; filename=\"anthropic.png\"; filename*=UTF-8''anthropic.png",
+      "vary": "Accept-Encoding",
+      "last-modified": "Wed, 04 Mar 2026 07:55:06 GMT",
+      "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+      "x-api-correlation-id": "e6210630-3676-b422-2b05-23f490b6276c",
+      "cache-control": "public, max-age=14400",
+      "cross-origin-resource-policy": "cross-origin",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "via": "1.1 f737694e7f987d3598c18b29a3a4a300.cloudfront.net (CloudFront)",
+      "cf-ray": "9e446749aa07d3c6-SIN",
+      "permissions-policy": "camera=(), geolocation=(), microphone=()",
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "content-length": "903",
+      "x-amz-cf-pop": "SIN2-P11",
+      "server": "cloudflare"
+    },
+    "mimeType": "image/png"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "other"
+  }
+}

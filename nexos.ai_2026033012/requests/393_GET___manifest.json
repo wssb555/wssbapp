@@ -1,0 +1,37 @@
+{
+  "url": "https://workspace.nexos.ai/__manifest?paths=%2F&version=fb2652cc",
+  "method": "GET",
+  "type": "Fetch",
+  "timestamp": "2026-03-30T04:33:29.973Z",
+  "requestHeaders": {
+    "sentry-trace": "d3e6261e8e61720c77baba54eea9082e-8ad06971cf0185f2-1",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://workspace.nexos.ai/authorization/verification?flow=b4b7e199-9f61-4076-a344-cc8e3ed1cd45",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "baggage": "sentry-environment=production,sentry-release=77fbca36,sentry-public_key=d4d9aeb54c2a68b5f0aba58c12d318c6,sentry-trace_id=d3e6261e8e61720c77baba54eea9082e,sentry-transaction=GET%20%2Fauthorization%2Fverification,sentry-sampled=true,sentry-sample_rand=0.4642115755804005,sentry-sample_rate=1"
+  },
+  "postData": null,
+  "response": {
+    "status": 200,
+    "statusText": "",
+    "headers": {
+      "cache-control": "public, max-age=31536000, immutable",
+      "content-encoding": "br",
+      "cf-cache-status": "DYNAMIC",
+      "cf-ray": "9e44658269ad6032-SIN",
+      "date": "Mon, 30 Mar 2026 04:33:30 GMT",
+      "content-type": "application/json",
+      "vary": "Accept-Encoding",
+      "server": "cloudflare"
+    },
+    "mimeType": "application/json"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "script"
+  }
+}

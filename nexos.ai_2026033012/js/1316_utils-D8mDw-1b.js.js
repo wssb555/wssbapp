@@ -1,0 +1,4 @@
+
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="f48e9678-882f-53a0-8204-f29d10a3a39c")}catch(e){}}();
+(function(){try{var e=typeof window<`u`?window:typeof global<`u`?global:typeof globalThis<`u`?globalThis:typeof self<`u`?self:{};e.SENTRY_RELEASE={id:`77fbca36`}}catch{}})();import{t as e}from"./captureSentryError-u88tboso.js";import{t}from"./use-toast-DAfu3deW.js";async function n(n,r=`Text copied to clipboard.`){try{await navigator.clipboard.writeText(n),t(r)}catch(n){t(`Failed to copy text to clipboard.`),e(`Failed to copy text to clipboard`,{cause:n,level:`debug`})}}export{n as t};
+//# debugId=f48e9678-882f-53a0-8204-f29d10a3a39c

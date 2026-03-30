@@ -1,0 +1,20 @@
+{
+  "source": "recorder",
+  "targetUrl": "https://nexos.ai/",
+  "description": "从 https://nexos.ai/ 录制",
+  "createdAt": "2026-03-30T04:32:04.736Z",
+  "stoppedAt": "2026-03-30T04:37:39.745Z",
+  "jsCount": 1398,
+  "requestCount": 924,
+  "xhrFetchCount": 155,
+  "screenshotCount": 14,
+  "snapshot": {
+    "html": true,
+    "cookies": 22,
+    "localStorage": 16,
+    "sessionStorage": 3,
+    "screenshot": true,
+    "iframes": 2,
+    "globalVars": 987
+  }
+}

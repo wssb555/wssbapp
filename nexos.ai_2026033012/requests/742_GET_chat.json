@@ -1,0 +1,39 @@
+{
+  "url": "https://workspace.nexos.ai/chat",
+  "method": "GET",
+  "type": "Document",
+  "timestamp": "2026-03-30T04:33:59.502Z",
+  "requestHeaders": {
+    "Content-Type": "application/x-www-form-urlencoded",
+    "Origin": "https://workspace.nexos.ai",
+    "Referer": "https://workspace.nexos.ai/",
+    "Upgrade-Insecure-Requests": "1",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\""
+  },
+  "postData": null,
+  "response": {
+    "status": 200,
+    "statusText": "",
+    "headers": {
+      "cf-cache-status": "DYNAMIC",
+      "cf-ray": "9e44663ccacc6032-SIN",
+      "content-encoding": "gzip",
+      "content-type": "text/html",
+      "date": "Mon, 30 Mar 2026 04:34:00 GMT",
+      "server": "cloudflare",
+      "server-timing": "cfCacheStatus;desc=\"DYNAMIC\"\ncfEdge;dur=5,cfOrigin;dur=539",
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "vary": "Accept-Encoding"
+    },
+    "mimeType": "text/html"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "other"
+  }
+}

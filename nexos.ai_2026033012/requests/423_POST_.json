@@ -1,0 +1,22 @@
+{
+  "url": "https://debug.nexos.ai/api/6/envelope/?sentry_version=7&sentry_key=d4d9aeb54c2a68b5f0aba58c12d318c6&sentry_client=sentry.javascript.react-router%2F10.42.0",
+  "method": "POST",
+  "type": "Fetch",
+  "timestamp": "2026-03-30T04:33:42.653Z",
+  "requestHeaders": {
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://workspace.nexos.ai/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "Content-Type": "text/plain;charset=UTF-8",
+    "sec-ch-ua-mobile": "?0"
+  },
+  "postData": "{\"sent_at\":\"2026-03-30T04:33:42.638Z\",\"trace\":{\"environment\":\"production\",\"release\":\"77fbca36\",\"public_key\":\"d4d9aeb54c2a68b5f0aba58c12d318c6\",\"trace_id\":\"1f8ea37f37e645119611c670b51a5f37\",\"sampled\":\"true\",\"sample_rand\":\"0.5576148006073902\",\"sample_rate\":\"1\"}}\n{\"type\":\"span\"}\n{\"data\":{\"sentry.origin\":\"auto.http.browser.inp\",\"sentry.op\":\"ui.interaction.click\",\"sentry.source\":\"custom\",\"release\":\"77fbca36\",\"environment\":\"production\",\"replay_id\":\"d78cc6bcc8ae4acfa2ce7755b8007fc0\",\"transaction\":\"/login\",\"user_agent.original\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37\",\"sentry.exclusive_time\":112},\"description\":\"a.inline-flex.items-center.justify-center.rounded-sm.font-medium.tracking-normal.whitespace-nowrap.focus-visible:outline-hidden.disabled:pointer-events-none.[&_svg]:pointer-events-none.[&_svg]:shrink-0.transition-all.relative.border.before:pointer-events-none.before:absolute.before:inset-0.before:z-0.before:rounded-[6px].before:bg-[linear-gradient(0deg,var(--button-outline-gradient-color)_0%,var(--button-outline-gradient-color)_100%)].before:opacity-[0].before:transition-[opacity].before:duration-200.before:ease-in-out.before:content-[\\\"\\\"].visited:before:opacity-[1].hover:before:opacity-[1].focus-visible:before:opacity-[1].active:before:opacity-[1].disabled:border-secondary.disabled:bg-secondary.disabled:text-disabled.[&>*]:relative.[&>*]:z-[1].h-10.5.gap-2.px-3.text-base.border-accent.bg-transparent.text-accent.[--button-outline-gradient-color:var(--color-star-indigo-trans-10)].active:[--button-outline-gradient-color:var(--color-star-indigo-trans-15)].dark:[--button-outline-gradient-color:var(--color-star-indigo-trans-15)].dark:active:[--button-outline-gradient-color:var(--color-star-indigo-trans-25)].active:shadow-[var(--shadow-button-outline-accent)].active:border-accent-active\",\"op\":\"ui.interaction.click\",\"span_id\":\"b2e6a414bbc2d29b\",\"start_timestamp\":1774845217.988,\"timestamp\":1774845218.1,\"trace_id\":\"1f8ea37f37e645119611c670b51a5f37\",\"origin\":\"auto.http.browser.inp\",\"exclusive_time\":112,\"measurements\":{\"inp\":{\"value\":112,\"unit\":\"millisecond\"}},\"is_segment\":true,\"segment_id\":\"b2e6a414bbc2d29b\"}",
+  "response": null,
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": "net::ERR_ABORTED",
+  "initiator": {
+    "type": "script"
+  }
+}

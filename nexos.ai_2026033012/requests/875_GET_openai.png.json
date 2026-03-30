@@ -1,0 +1,52 @@
+{
+  "url": "https://sb.nordcdn.com/m/5549871207d2c13c/original/openai.png",
+  "method": "GET",
+  "type": "Image",
+  "timestamp": "2026-03-30T04:34:41.982Z",
+  "requestHeaders": {
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://workspace.nexos.ai/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0"
+  },
+  "postData": null,
+  "response": {
+    "status": 200,
+    "statusText": "",
+    "headers": {
+      "cf-cache-status": "HIT",
+      "age": "1577019",
+      "x-content-type-options": "nosniff",
+      "expires": "Mon, 30 Mar 2026 08:34:43 GMT",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-cache": "Hit from cloudfront",
+      "x-amz-cf-id": "dqyO7skqTF1SWICnMcq8DzN7Wwjhk1wlgnhDrAWdhFu0gXzBq6YvQw==",
+      "date": "Mon, 30 Mar 2026 04:34:43 GMT",
+      "content-type": "image/png",
+      "content-disposition": "inline; filename=\"openai.png\"; filename*=UTF-8''openai.png",
+      "vary": "Accept-Encoding",
+      "last-modified": "Wed, 11 Mar 2026 22:31:03 GMT",
+      "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+      "x-api-correlation-id": "c2290e0e-14bb-6c71-f7d6-d6c9d1373b1b",
+      "cache-control": "public, max-age=14400",
+      "cross-origin-resource-policy": "cross-origin",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "via": "1.1 1ee8ce322e7f188949519f4cf80c011c.cloudfront.net (CloudFront)",
+      "cf-ray": "9e44674c3957d3c6-SIN",
+      "permissions-policy": "camera=(), geolocation=(), microphone=()",
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "content-length": "2201",
+      "x-amz-cf-pop": "CCU50-P5",
+      "server": "cloudflare"
+    },
+    "mimeType": "image/png"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "other"
+  }
+}

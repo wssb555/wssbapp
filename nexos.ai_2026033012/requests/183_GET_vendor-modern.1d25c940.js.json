@@ -1,0 +1,50 @@
+{
+  "url": "https://js.intercomcdn.com/vendor-modern.1d25c940.js",
+  "method": "GET",
+  "type": "Script",
+  "timestamp": "2026-03-30T04:32:28.110Z",
+  "requestHeaders": {
+    "Origin": "https://workspace.nexos.ai",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0"
+  },
+  "postData": null,
+  "response": {
+    "status": 200,
+    "statusText": "",
+    "headers": {
+      "content-encoding": "gzip",
+      "x-amz-version-id": "etrjr4J14LEWIQpgp8dw_xtRxMA4_iij",
+      "etag": "\"ab42595d5c1a6072447d2dcba37dac22\"",
+      "age": "2709",
+      "x-content-type-options": "nosniff",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-cache": "Hit from cloudfront",
+      "x-amz-cf-id": "m_pxTb4c0WTUqbCFboC7eck8QarkxsOhdO9o8vsnfIi1Cr9Y_w7LFQ==",
+      "date": "Mon, 30 Mar 2026 03:47:21 GMT",
+      "content-type": "application/javascript; charset=UTF-8",
+      "vary": "Accept-Encoding",
+      "last-modified": "Sat, 28 Mar 2026 10:44:18 GMT",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "cache-control": "max-age=31536000, s-maxage=7200, public",
+      "cross-origin-resource-policy": "cross-origin",
+      "via": "1.1 2dfc5086fa0cedb946988f6edb9face4.cloudfront.net (CloudFront)",
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "content-length": "146260",
+      "x-amz-cf-pop": "SIN2-P10",
+      "server": "AmazonS3",
+      "x-amz-server-side-encryption": "AES256"
+    },
+    "mimeType": "application/javascript"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "script"
+  }
+}

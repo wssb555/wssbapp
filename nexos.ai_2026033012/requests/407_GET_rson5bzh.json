@@ -1,0 +1,46 @@
+{
+  "url": "https://widget.intercom.io/widget/rson5bzh",
+  "method": "GET",
+  "type": "Script",
+  "timestamp": "2026-03-30T04:33:35.873Z",
+  "requestHeaders": {
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://workspace.nexos.ai/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0"
+  },
+  "postData": null,
+  "response": {
+    "status": 200,
+    "statusText": "",
+    "headers": {
+      "content-encoding": "gzip",
+      "x-amz-version-id": "rl.ColukVOrtw8I3F2xqZRDRNWQZJLHP",
+      "etag": "\"7a915fc24ed03d2bc7bd53275b866822\"",
+      "age": "179",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-cache": "Error from cloudfront",
+      "x-amz-cf-id": "wB5eRX4MYVbrSBzMr7GEbxNWqd8xrNnNxob1JZEX2moFbhXK3xHYSw==",
+      "date": "Mon, 30 Mar 2026 04:29:37 GMT",
+      "content-type": "application/javascript; charset=UTF-8",
+      "vary": "Accept-Encoding, Origin",
+      "last-modified": "Sun, 29 Mar 2026 16:48:52 GMT",
+      "cache-control": "max-age=300, s-maxage=300, public",
+      "cross-origin-resource-policy": "cross-origin",
+      "via": "1.1 59200cf8e35c5a7273b88a148fe1e0a4.cloudfront.net (CloudFront)",
+      "accept-ranges": "bytes",
+      "content-length": "3161",
+      "x-amz-cf-pop": "SIN52-P1",
+      "server": "AmazonS3",
+      "x-amz-server-side-encryption": "AES256"
+    },
+    "mimeType": "application/javascript"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "script"
+  }
+}

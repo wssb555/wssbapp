@@ -1,0 +1,39 @@
+{
+  "url": "https://trackcmp.net/t_prism_sitemessages.php?trackid=802362301&prismid=75096c0d-e293-463f-9d1c-ecb5d875e22f&url=https%3A%2F%2Fnexos.ai%2F",
+  "method": "GET",
+  "type": "Script",
+  "timestamp": "2026-03-30T04:32:06.897Z",
+  "requestHeaders": {
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://nexos.ai/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0"
+  },
+  "postData": null,
+  "response": {
+    "status": 200,
+    "statusText": "",
+    "headers": {
+      "cache-control": "no-cache, private",
+      "x-privacy-policy": "You can find our privacy policy here: https://www.activecampaign.com/help/privacy-policy/",
+      "cf-cache-status": "DYNAMIC",
+      "x-envoy-upstream-service-time": "12",
+      "via": "0.0 Caddy",
+      "cf-ray": "9e4463880da31b28-SIN",
+      "content-length": "0",
+      "p3p": "CP=\"NON BUS INT NAV COM ADM CON CUR IVA IVD OTP PSA PSD TEL SAM\"",
+      "date": "Mon, 30 Mar 2026 04:32:09 GMT",
+      "content-type": "text/javascript;charset=UTF-8",
+      "x-powered-by": "PHP/8.1.34",
+      "server": "cloudflare"
+    },
+    "mimeType": "text/javascript"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "script"
+  }
+}

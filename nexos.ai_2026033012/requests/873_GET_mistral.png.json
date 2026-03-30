@@ -1,0 +1,53 @@
+{
+  "url": "https://sb.nordcdn.com/m/507b58fc609f2ad4/original/mistral.png",
+  "method": "GET",
+  "type": "Image",
+  "timestamp": "2026-03-30T04:34:41.982Z",
+  "requestHeaders": {
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://workspace.nexos.ai/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0"
+  },
+  "postData": null,
+  "response": {
+    "status": 200,
+    "statusText": "",
+    "headers": {
+      "cf-cache-status": "HIT",
+      "age": "187225",
+      "amzn-cache-tag": "asset:19beb542-4774-47bc-aa3e-2df92a10a41b",
+      "x-content-type-options": "nosniff",
+      "expires": "Mon, 30 Mar 2026 08:34:43 GMT",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "x-cache": "Miss from cloudfront",
+      "x-amz-cf-id": "-RHZcHYH81Ia6fxeKmQC4xzWJQh8rpxDH6q_D9LWthYf62dpduldmQ==",
+      "date": "Mon, 30 Mar 2026 04:34:43 GMT",
+      "content-type": "image/png",
+      "content-disposition": "inline; filename=\"mistral.png\"; filename*=UTF-8''mistral.png",
+      "vary": "Accept-Encoding",
+      "last-modified": "Sat, 28 Mar 2026 00:34:17 GMT",
+      "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+      "x-api-correlation-id": "4b9e9f33-d4d0-17f5-c8dc-89bb94bef078",
+      "cache-control": "public, max-age=14400",
+      "cross-origin-resource-policy": "cross-origin",
+      "referrer-policy": "strict-origin-when-cross-origin",
+      "via": "1.1 1e0e4e8c9ab30071863c2316f9a451ca.cloudfront.net (CloudFront)",
+      "cf-ray": "9e44674add86d3c6-SIN",
+      "permissions-policy": "camera=(), geolocation=(), microphone=()",
+      "accept-ranges": "bytes",
+      "access-control-allow-origin": "*",
+      "content-length": "466",
+      "x-amz-cf-pop": "TPE54-P1",
+      "server": "cloudflare"
+    },
+    "mimeType": "image/png"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "other"
+  }
+}

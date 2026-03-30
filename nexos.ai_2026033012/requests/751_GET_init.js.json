@@ -1,0 +1,42 @@
+{
+  "url": "https://s1.nordcdn.com/d/consent/prod/init.js?pre=gdpr",
+  "method": "GET",
+  "type": "Script",
+  "timestamp": "2026-03-30T04:34:01.513Z",
+  "requestHeaders": {
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://workspace.nexos.ai/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0"
+  },
+  "postData": null,
+  "response": {
+    "status": 200,
+    "statusText": "",
+    "headers": {
+      "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+      "cache-control": "public, max-age=604800",
+      "content-encoding": "gzip",
+      "cf-cache-status": "HIT",
+      "age": "1099131",
+      "cf-ray": "9e446649999d447c-SIN",
+      "access-control-allow-origin": "*",
+      "alt-svc": "h3=\":443\"; ma=86400",
+      "date": "Mon, 30 Mar 2026 04:34:01 GMT",
+      "last-modified": "Mon, 29 Dec 2025 08:01:33 GMT",
+      "vary": "Accept-Encoding",
+      "server": "cloudflare",
+      "content-type": "application/javascript",
+      "x-frame-options": "SAMEORIGIN"
+    },
+    "mimeType": "application/javascript"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "parser",
+    "url": "https://workspace.nexos.ai/chat"
+  }
+}

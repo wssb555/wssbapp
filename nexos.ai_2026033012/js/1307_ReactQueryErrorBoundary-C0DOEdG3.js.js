@@ -1,0 +1,4 @@
+
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="4406ebd4-d8cb-5365-8451-c8c8f41edca1")}catch(e){}}();
+(function(){try{var e=typeof window<`u`?window:typeof global<`u`?global:typeof globalThis<`u`?globalThis:typeof self<`u`?self:{};e.SENTRY_RELEASE={id:`77fbca36`}}catch{}})();import{o as e}from"./chunk-CLHnkPwZ.js";import{t}from"./jsx-runtime-hVLyBpah.js";import{r as n}from"./useBaseQuery-1IpycvGk.js";import{t as r}from"./react-error-boundary-Ck5rFbSc.js";var i=e(t(),1),a=({children:e,fallbackRender:t})=>(0,i.jsx)(n,{children:({reset:n})=>(0,i.jsx)(r,{onReset:n,fallbackRender:t||(()=>null),children:e})});export{a as t};
+//# debugId=4406ebd4-d8cb-5365-8451-c8c8f41edca1

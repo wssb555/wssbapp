@@ -1,0 +1,38 @@
+{
+  "url": "https://d.nexos.ai/1/cc",
+  "method": "POST",
+  "type": "Ping",
+  "timestamp": "2026-03-30T04:32:10.625Z",
+  "requestHeaders": {
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://nexos.ai/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "Content-Type": "text/plain;charset=UTF-8",
+    "sec-ch-ua-mobile": "?0"
+  },
+  "postData": "{\"context\":{\"en\":0},\"event\":{\"pr\":\"\",\"pt\":\"All-in-one AI platform | nexos.ai\",\"ua\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37\",\"pl\":\"en\",\"dl\":\"en-US\",\"fu\":\"https://nexos.ai/\",\"rs\":\"1363x962\",\"rv\":\"1363x962\",\"p\":\"nexos\",\"cvs\":\"nexos@undefined\",\"ni\":0,\"vi\":\"TC_10643900352145363_1774845119159\",\"si\":\"1774845119166\",\"hc\":3,\"se\":1,\"scx\":1,\"ss\":1774845119166,\"etm\":132,\"cns\":\"ignored,ES\",\"e\":\"click\",\"en\":\"Get free trial\",\"sn\":\"Hero\",\"sni\":\"02\",\"source_nord_id\":0,\"ht\":1774845130617,\"lv\":\"4.2.0\",\"du\":\"https://workspace.nexos.ai/\"}}",
+  "response": {
+    "status": 202,
+    "statusText": "",
+    "headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "x-request-id": "08ef9f44edbb6eb829c08cf4000dc5df",
+      "cf-cache-status": "DYNAMIC",
+      "access-control-allow-credentials": "true",
+      "cf-ray": "9e4463945922f930-SIN",
+      "access-control-allow-origin": "https://nexos.ai",
+      "content-length": "0",
+      "date": "Mon, 30 Mar 2026 04:32:11 GMT",
+      "vary": "Origin",
+      "server": "cloudflare"
+    },
+    "mimeType": "text/plain"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "script"
+  }
+}

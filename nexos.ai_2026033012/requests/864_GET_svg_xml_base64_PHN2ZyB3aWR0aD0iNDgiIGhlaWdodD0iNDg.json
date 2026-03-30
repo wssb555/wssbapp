@@ -1,0 +1,26 @@
+{
+  "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00OCAwSDBWNDhINDhWMTIuOTMzM0M0Ni45ODA5IDEzLjg0NTQgNDUuNjM1MiAxNC40IDQ0LjE2IDE0LjRDNDAuOTc4OCAxNC40IDM4LjQgMTEuODIxMiAzOC40IDguNjRDMzguNCA1LjQ1ODg0IDQwLjk3ODggMi44OCA0NC4xNiAyLjg4QzQ1LjYzNTIgMi44OCA0Ni45ODA5IDMuNDM0NiA0OCA0LjM0NjY3VjBaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz4KPC9zdmc+Cg==",
+  "method": "GET",
+  "type": "Image",
+  "timestamp": "2026-03-30T04:34:39.462Z",
+  "requestHeaders": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "Origin": "https://workspace.nexos.ai",
+    "Referer": ""
+  },
+  "postData": null,
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "Content-Type": "image/svg+xml"
+    },
+    "mimeType": "image/svg+xml"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "other"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "湖北干部网络学院 - 自动学习助手",
+  "version": "2.0.0",
+  "description": "自动学习湖北干部网络学院课程：自动1.5倍速播放、自动切换章节、自动切换课程、暂停提醒",
+  "permissions": ["tabs", "scripting", "storage", "notifications", "alarms"],
+  "host_permissions": [
+    "http://www.hbgbzx.gov.cn/*",
+    "https://www.hbgbzx.gov.cn/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.hbgbzx.gov.cn/*",
+        "https://www.hbgbzx.gov.cn/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["stealth.js"],
+      "matches": ["http://www.hbgbzx.gov.cn/*", "https://www.hbgbzx.gov.cn/*"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "url": "https://workspace.nexos.ai/authorization/registration.data?login_flow=b06e7782-469e-4a19-99b3-3bd86c3f6f42&flow=8b9d2ad8-dcd8-4ac4-8f75-cde1ef533f5f&_routes=no-auth-layout",
+  "method": "GET",
+  "type": "Fetch",
+  "timestamp": "2026-03-30T04:32:37.927Z",
+  "requestHeaders": {
+    "sentry-trace": "aedf679842ab4658a7d245b6681df2bf-8f0a5c98c131fe9c-1",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://workspace.nexos.ai/authorization/registration?login_flow=b06e7782-469e-4a19-99b3-3bd86c3f6f42",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "baggage": "sentry-environment=production,sentry-release=77fbca36,sentry-public_key=d4d9aeb54c2a68b5f0aba58c12d318c6,sentry-trace_id=aedf679842ab4658a7d245b6681df2bf,sentry-sampled=true,sentry-sample_rand=0.5281889891150123,sentry-sample_rate=1"
+  },
+  "postData": null,
+  "response": {
+    "status": 200,
+    "statusText": "",
+    "headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "cache-control": "no-store",
+      "content-encoding": "gzip",
+      "cf-cache-status": "DYNAMIC",
+      "cf-ray": "9e44643f3be96032-SIN",
+      "date": "Mon, 30 Mar 2026 04:32:38 GMT",
+      "x-remix-response": "yes",
+      "content-type": "text/x-script",
+      "server": "cloudflare"
+    },
+    "mimeType": "text/x-script"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "script"
+  }
+}

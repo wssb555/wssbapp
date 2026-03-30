@@ -1,0 +1,22 @@
+{
+  "url": "https://debug.nexos.ai/api/6/envelope/?sentry_version=7&sentry_key=d4d9aeb54c2a68b5f0aba58c12d318c6&sentry_client=sentry.javascript.react-router%2F10.42.0",
+  "method": "POST",
+  "type": "Fetch",
+  "timestamp": "2026-03-30T04:34:00.380Z",
+  "requestHeaders": {
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://workspace.nexos.ai/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "Content-Type": "text/plain;charset=UTF-8",
+    "sec-ch-ua-mobile": "?0"
+  },
+  "postData": "{\"sdk\":{\"name\":\"sentry.javascript.react-router\",\"version\":\"10.42.0\"}}\n{\"type\":\"trace_metric\",\"item_count\":2,\"content_type\":\"application/vnd.sentry.items.trace-metric+json\"}\n{\"items\":[{\"timestamp\":1774845240.2933998,\"trace_id\":\"ff69ffc90392c75824df15b09594f765\",\"name\":\"INP\",\"type\":\"distribution\",\"unit\":\"millisecond\",\"value\":56,\"attributes\":{\"sentry.release\":{\"value\":\"77fbca36\",\"type\":\"string\"},\"sentry.environment\":{\"value\":\"production\",\"type\":\"string\"},\"sentry.sdk.name\":{\"value\":\"sentry.javascript.react-router\",\"type\":\"string\"},\"sentry.sdk.version\":{\"value\":\"10.42.0\",\"type\":\"string\"},\"sentry.replay_id\":{\"value\":\"d78cc6bcc8ae4acfa2ce7755b8007fc0\",\"type\":\"string\"},\"sentry._internal.replay_is_buffering\":{\"value\":true,\"type\":\"boolean\"}}},{\"timestamp\":1774845240.2937,\"trace_id\":\"ff69ffc90392c75824df15b09594f765\",\"name\":\"CLS\",\"type\":\"distribution\",\"unit\":\"millisecond\",\"value\":0,\"attributes\":{\"sentry.release\":{\"value\":\"77fbca36\",\"type\":\"string\"},\"sentry.environment\":{\"value\":\"production\",\"type\":\"string\"},\"sentry.sdk.name\":{\"value\":\"sentry.javascript.react-router\",\"type\":\"string\"},\"sentry.sdk.version\":{\"value\":\"10.42.0\",\"type\":\"string\"},\"sentry.replay_id\":{\"value\":\"d78cc6bcc8ae4acfa2ce7755b8007fc0\",\"type\":\"string\"},\"sentry._internal.replay_is_buffering\":{\"value\":true,\"type\":\"boolean\"}}}]}",
+  "response": null,
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": "net::ERR_ABORTED",
+  "initiator": {
+    "type": "script"
+  }
+}

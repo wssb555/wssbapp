@@ -1,0 +1,4 @@
+
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="a5645589-e9d1-5c7d-a5ff-e310b82c8d88")}catch(e){}}();
+(function(){try{var e=typeof window<`u`?window:typeof global<`u`?global:typeof globalThis<`u`?globalThis:typeof self<`u`?self:{};e.SENTRY_RELEASE={id:`77fbca36`}}catch{}})();import{o as e}from"./chunk-CLHnkPwZ.js";import{r as t}from"./chunk-LFPYN7LY-DvFZTgRa.js";import{t as n}from"./jsx-runtime-hVLyBpah.js";import{t as r}from"./dist-CXMScWbG.js";var i=e(n(),1),a=({children:e,formMethods:n,onSubmit:a,preventDefaultSubmit:o=!1,...s})=>(0,i.jsx)(r,{...n,children:(0,i.jsx)(t,{method:`POST`,...s,onSubmit:e=>{if(a?.(e),o){e.preventDefault(),e.stopPropagation();return}n.handleSubmit(e)},children:e})});export{a as t};
+//# debugId=a5645589-e9d1-5c7d-a5ff-e310b82c8d88

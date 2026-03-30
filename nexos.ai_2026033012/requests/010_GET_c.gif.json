@@ -1,0 +1,36 @@
+{
+  "url": "https://c.clarity.ms/c.gif?ctsa=mr&CtsSyncId=B0EFBD0040004EB7890B798827A74E9D&MUID=04CF0318F90568FD1E7E1434F81E6981",
+  "method": "GET",
+  "type": "Image",
+  "timestamp": "2026-03-30T04:32:16.323Z",
+  "requestHeaders": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "Referer": "https://nexos.ai/"
+  },
+  "postData": null,
+  "response": {
+    "status": 200,
+    "statusText": "",
+    "headers": {
+      "cache-control": "private, no-cache, proxy-revalidate, no-store",
+      "pragma": "no-cache",
+      "etag": "\"f25a4324eb2dc1:0\"",
+      "accept-ranges": "bytes",
+      "x-cache": "CONFIG_NOCACHE",
+      "content-length": "42",
+      "p3p": "CP=\"BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo\"",
+      "date": "Mon, 30 Mar 2026 04:32:16 GMT",
+      "content-type": "image/gif",
+      "last-modified": "Thu, 12 Mar 2026 18:29:43 GMT",
+      "x-powered-by": "ASP.NET",
+      "x-azure-ref": "20260330T043216Z-15dc85f949fzvzvxhC1JKT34kc0000001d6g000000000cev"
+    },
+    "mimeType": "image/gif"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "other"
+  }
+}

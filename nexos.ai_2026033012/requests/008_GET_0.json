@@ -1,0 +1,36 @@
+{
+  "url": "https://bat.bing.com/action/0?ti=343195612&Ver=2&mid=bec9b6fa-e52c-43db-ab5d-0d2a76acfcc9&bo=2&sid=6cb7e0502bf111f1860a395361ab32c5&vid=6cb7ee202bf111f181498dfe2b0cf7fa&vids=1&msclkid=N&uach=pv%3D&pi=918639831&lg=en-US&sw=1363&sh=962&sc=24&tl=All-in-one%20AI%20platform%20%7C%20nexos.ai&p=https%3A%2F%2Fnexos.ai%2F&r=&lt=7142&mtp=10&evt=pageLoad&sv=2&asc=G&cdb=AQAQ&rn=498343",
+  "method": "GET",
+  "type": "Image",
+  "timestamp": "2026-03-30T04:32:13.632Z",
+  "requestHeaders": {
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://nexos.ai/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0"
+  },
+  "postData": null,
+  "response": {
+    "status": 204,
+    "statusText": "",
+    "headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "cache-control": "no-cache, must-revalidate",
+      "pragma": "no-cache",
+      "accept-ch": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+      "x-msedge-ref": "Ref A: 224F259B50D64DC3AB85E08061DF952E Ref B: SG2AA1040513025 Ref C: 2026-03-30T04:32:13Z",
+      "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+      "access-control-allow-origin": "*",
+      "x-cache": "CONFIG_NOCACHE",
+      "date": "Mon, 30 Mar 2026 04:32:13 GMT"
+    },
+    "mimeType": "text/plain"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "other"
+  }
+}

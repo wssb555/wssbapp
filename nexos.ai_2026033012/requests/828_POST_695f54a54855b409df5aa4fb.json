@@ -1,0 +1,41 @@
+{
+  "url": "https://events.launchdarkly.com/events/bulk/695f54a54855b409df5aa4fb",
+  "method": "POST",
+  "type": "XHR",
+  "timestamp": "2026-03-30T04:34:15.696Z",
+  "requestHeaders": {
+    "X-LaunchDarkly-Wrapper": "react-client-sdk/3.9.0",
+    "X-LaunchDarkly-Event-Schema": "4",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://workspace.nexos.ai/",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0",
+    "X-LaunchDarkly-Payload-ID": "b57989f0-2bf1-11f1-9fa9-6fbb71f5d0f2",
+    "X-LaunchDarkly-User-Agent": "JSClient/3.9.0",
+    "Content-Type": "application/json",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37"
+  },
+  "postData": "[{\"kind\":\"identify\",\"context\":{\"anonymous\":true,\"key\":\"anonymous\",\"kind\":\"user\"},\"creationDate\":1774845248873},{\"startDate\":1774845249340,\"endDate\":1774845250611,\"features\":{\"KILL_SWITCH_ENABLED\":{\"default\":false,\"counters\":[{\"value\":false,\"count\":2,\"variation\":1,\"version\":8}],\"contextKinds\":[\"user\"]},\"BILLING_PAGE_COMPANIES_LIST\":{\"default\":[\"*\"],\"counters\":[{\"value\":[\"*\"],\"count\":8,\"variation\":2,\"version\":20}],\"contextKinds\":[\"user\"]},\"ONBOARDING_COMPANIES_LIST\":{\"default\":[\"*\"],\"counters\":[{\"value\":[\"*\"],\"count\":2,\"variation\":2,\"version\":4}],\"contextKinds\":[\"user\"]},\"GLOBAL_ALERT\":{\"default\":\"\",\"counters\":[{\"value\":\"\",\"count\":2,\"variation\":0,\"version\":7}],\"contextKinds\":[\"user\"]},\"DEEP_RESEARCH_COMPANIES_LIST\":{\"default\":[\"*\"],\"counters\":[{\"value\":[\"*\"],\"count\":4,\"variation\":1,\"version\":15}],\"contextKinds\":[\"user\"]},\"CONVERSATION_STARTERS_ENABLED\":{\"default\":true,\"counters\":[{\"value\":true,\"count\":3,\"variation\":0,\"version\":6}],\"contextKinds\":[\"user\"]},\"AGENT_CONVERSATION_STARTERS_ENABLED\":{\"default\":true,\"counters\":[{\"value\":true,\"count\":3,\"variation\":0,\"version\":4}],\"contextKinds\":[\"user\"]},\"AGENT_TEMPLATES_ON_HOMEPAGE_ENABLED\":{\"default\":true,\"counters\":[{\"value\":true,\"count\":3,\"variation\":0,\"version\":3}],\"contextKinds\":[\"user\"]}},\"kind\":\"summary\",\"context\":{\"anonymous\":true,\"key\":\"anonymous\",\"kind\":\"user\"}}]",
+  "response": {
+    "status": 202,
+    "statusText": "",
+    "headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "access-control-max-age": "300",
+      "access-control-expose-headers": "Date",
+      "access-control-allow-methods": "POST,OPTIONS",
+      "access-control-allow-origin": "*",
+      "content-length": "0",
+      "date": "Mon, 30 Mar 2026 04:34:16 GMT",
+      "content-type": "application/json",
+      "access-control-allow-headers": "Accept,Content-Type,Content-Length,Accept-Encoding,X-LaunchDarkly-Event-Schema,X-LaunchDarkly-User-Agent,X-LaunchDarkly-Payload-ID,X-LaunchDarkly-Wrapper,X-LaunchDarkly-Tags"
+    },
+    "mimeType": "application/json"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "script"
+  }
+}

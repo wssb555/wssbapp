@@ -1,0 +1,4 @@
+
+!function(){try{var e="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[n]="5d67a828-0d68-5d9f-9e50-f9cd28f71101")}catch(e){}}();
+(function(){try{var e=typeof window<`u`?window:typeof global<`u`?global:typeof globalThis<`u`?globalThis:typeof self<`u`?self:{};e.SENTRY_RELEASE={id:`77fbca36`}}catch{}})();var e=({delay:e},t)=>{let n,r=!0,i=(...i)=>{r?(clearTimeout(n),n=setTimeout(()=>{r&&t(...i),n=void 0},e)):t(...i)};return i.isPending=()=>n!==void 0,i.cancel=()=>{r=!1},i.flush=(...e)=>t(...e),i},t=({interval:e},t)=>{let n=!0,r,i=(...i)=>{n&&(t(...i),n=!1,r=setTimeout(()=>{n=!0,r=void 0},e))};return i.isThrottled=()=>r!==void 0,i};export{t as n,e as t};
+//# debugId=5d67a828-0d68-5d9f-9e50-f9cd28f71101

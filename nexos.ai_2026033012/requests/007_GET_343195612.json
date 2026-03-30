@@ -1,0 +1,35 @@
+{
+  "url": "https://www.clarity.ms/tag/uet/343195612?conversions=1&insights=1",
+  "method": "GET",
+  "type": "Script",
+  "timestamp": "2026-03-30T04:32:13.631Z",
+  "requestHeaders": {
+    "sec-ch-ua-platform": "\"Windows\"",
+    "Referer": "https://nexos.ai/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/756.37 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/756.37",
+    "sec-ch-ua": "\"Not=A?Brand\";v=\"24\", \"Chromium\";v=\"140\"",
+    "sec-ch-ua-mobile": "?0"
+  },
+  "postData": null,
+  "response": {
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+      "Cache-Control": "no-cache, no-store",
+      "Connection": "keep-alive",
+      "Request-Context": "appId=cid-v1:a894a21c-0197-44e5-b203-3cbc01252c82",
+      "Expires": "-1",
+      "Content-Length": "936",
+      "Date": "Mon, 30 Mar 2026 04:32:14 GMT",
+      "Content-Type": "application/x-javascript",
+      "Server": "nginx"
+    },
+    "mimeType": "application/x-javascript"
+  },
+  "responseBody": null,
+  "responseEncoding": "text",
+  "error": null,
+  "initiator": {
+    "type": "script"
+  }
+}
